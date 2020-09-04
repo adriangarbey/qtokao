@@ -1,0 +1,53 @@
+@white: #ffffff;
+@orange: #d13202;
+@black: #000000;
+@black-light: #404040;
+@gray: #F2F2F2;
+
+#sorteo-portada{
+  width: 100%;
+  position: relative;
+  .curve-svg{
+    position: absolute;
+    width: 100%;
+    bottom: -3px;
+    z-index: 3;
+    svg{
+      width: 100%;
+      height: auto;
+    }
+  }
+  img{
+    width: 100%;
+  }
+}
+
+.noticia-content{
+  max-width: 750px;
+  margin: 40px auto;
+  font-size: 16px;
+  line-height: 1.3;
+  .wp-block-embed__wrapper,
+  .wp-block-embed-youtube{
+    width: 100%;
+    iframe{
+      width: 100%;
+    }
+  }
+  .post-title{
+    text-align: center;
+    font-weight: 200;
+    font-size: 32px;
+    line-height: 1.3;
+    margin-bottom: 40px;
+  }
+  @media (max-width: 767px){
+    font-size: 14px;
+    margin: 20px auto;
+    .post-title{
+      font-weight: 200;
+      font-size: 20px;
+      margin-bottom: 20px;
+    }
+  }
+}

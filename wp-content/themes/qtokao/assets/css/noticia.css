@@ -1,0 +1,49 @@
+#sorteo-portada {
+  width: 100%;
+  position: relative;
+}
+#sorteo-portada .curve-svg {
+  position: absolute;
+  width: 100%;
+  bottom: -3px;
+  z-index: 3;
+}
+#sorteo-portada .curve-svg svg {
+  width: 100%;
+  height: auto;
+}
+#sorteo-portada img {
+  width: 100%;
+}
+.noticia-content {
+  max-width: 750px;
+  margin: 40px auto;
+  font-size: 16px;
+  line-height: 1.3;
+}
+.noticia-content .wp-block-embed__wrapper,
+.noticia-content .wp-block-embed-youtube {
+  width: 100%;
+}
+.noticia-content .wp-block-embed__wrapper iframe,
+.noticia-content .wp-block-embed-youtube iframe {
+  width: 100%;
+}
+.noticia-content .post-title {
+  text-align: center;
+  font-weight: 200;
+  font-size: 32px;
+  line-height: 1.3;
+  margin-bottom: 40px;
+}
+@media (max-width: 767px) {
+  .noticia-content {
+    font-size: 14px;
+    margin: 20px auto;
+  }
+  .noticia-content .post-title {
+    font-weight: 200;
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+}

@@ -1,0 +1,320 @@
+.login h1{
+    background-color: transparent;
+    padding: 10px 0 15px;
+    height: 55px;
+}
+
+.login h1 a{
+    background-image: url(../images/logo.png);
+    -webkit-background-size: auto 100%;
+    background-size: auto;
+    width: 260px;
+    height: 40px;
+}
+
+body{
+    background: #f4f4f4;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+#login {
+    width: 420px;
+    padding: 50px 0;
+    margin: auto;
+    max-width: 100%;
+
+}
+
+
+
+.acf-field-select,
+input[type="email"],
+input[type="url"],
+.login form .input,
+.login form input[type="checkbox"],
+.login input[type="text"] {
+    display: block;
+    width: 100%;
+    min-height: 50px;
+    padding: 13px 19px;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #242424;
+    background-color: #ffffff;
+    background-image: none;
+    border-radius: 5px;
+    -webkit-appearance: none;
+    transition: .3s ease-in-out;
+    border: 1px solid #E5E5E5 !important;
+    outline-style: none !important;
+    box-shadow: none;
+}
+
+.acf-field-select{
+    padding: 8px 20px !important;
+}
+
+.acf-field-select select{
+    border: none !important;
+}
+
+.acf-url i{
+    top: 16px !important;
+}
+
+.wp-core-ui .button-primary{
+    position: relative;
+    overflow: hidden;
+    text-transform: uppercase;
+    text-overflow: ellipsis;
+    border-radius: 5px;
+    z-index: 0;
+    padding: 0px 40px 0 !important;
+    font-weight: 600;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    user-select: none;
+    border: none;
+    font-size: 1rem;
+    line-height: 24px;
+    transition: all 0.3s ease-in-out;
+    color: #fff;
+    background: #d13202;
+    float: none !important;
+    margin: 0 auto;
+}
+
+p.submit{
+    text-align: center;
+}
+
+.wp-core-ui .button-primary.focus,
+.wp-core-ui .button-primary.hover,
+.wp-core-ui .button-primary:focus,
+.wp-core-ui .button-primary:hover{
+    background: #000;
+}
+
+.login #backtoblog a,
+.login #nav a,
+.login h1 a,
+.login #backtoblog a:hover,
+.login #nav a:hover,
+.login h1 a:hover{
+    color: #d13202;
+}
+
+
+.login #login_error, .login .message, .login .success {
+    border-left: 4px solid #d13202;
+    padding: 12px;
+    margin-left: 0;
+    margin-bottom: 15px;
+    background-color: #fff;
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+}
+
+#lostpasswordform,
+#registerform,
+#loginform{
+    background: #fff;
+    color: #000;
+    border-radius: 5px;
+    margin-top: 0;
+    border: none
+}
+
+.login .button.wp-hide-pw .dashicons{
+    visibility: hidden;
+}
+
+.forgetmenot{
+    display: none !important;
+}
+
+.user-pass-wrap label,
+p label{
+    display: none !important;
+}
+
+#reg_passmail{
+    color: #242424;
+}
+
+#registerform .acf-field-file,
+#registerform .acf-field-image{
+    color: #242424;
+}
+
+#registerform h2{
+    display: none;
+}
+
+
+.acf-relationship .selection .choices {
+    background: #F9F9F9;
+}
+
+.acf-relationship .list .acf-rel-item{
+    color: #242424;
+}
+
+.acf-relationship .list .acf-rel-item:hover {
+    background: #d13202 !important;
+    color: #fff;
+}
+
+.acf-label{
+    display: none;
+}
+
+.acf-field-file .acf-label,
+.acf-field-image .acf-label{
+    display: block;
+}
+
+.dropzone.acf-field-image .acf-image-uploader .hide-if-value, .dropzone.acf-field-file .acf-file-uploader .hide-if-value{
+    border: 1px dashed #ccc !important;
+    background: #fff;
+    border-radius: 30px;
+}
+
+.dropzone.acf-field-image .acf-image-uploader .hide-if-value, .dropzone.acf-field-file .acf-file-uploader .hide-if-value{
+    padding: 10px 20px !important;
+}
+
+.acf-relationship {
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.select2-container--default .select2-results__option[aria-selected="true"] {
+    background-color: #f3f3f3;
+}
+.select2-container--default .select2-results__option--highlighted[aria-selected] {
+    background-color: #d13202;
+    color: #242424;
+}
+.select2-container {
+    width: 100% !important;
+}
+.select2-container .select2-selection--single {
+    border: 1px solid #e5e5e5 !important;
+    border-radius: 19px !important;
+    padding: 7px 9px;
+    min-height: 40px !important;
+    outline-style: none !important;
+    box-shadow: none;
+}
+.select2-container .select2-selection--single .select2-selection__rendered {
+    min-height: 40px !important;
+    line-height: 28px !important;
+    color: #242424 !important;
+    font-size: 13px;
+    opacity: .8;
+    outline-style: none !important;
+    box-shadow: none;
+}
+.select2-container .select2-selection--single .select2-selection__arrow {
+    top: 8px !important;
+    right: 10px !important;
+    opacity: .9 !important;
+}
+.select2-container .select2-selection--multiple {
+    border: 1px solid #e5e5e5 !important;
+    border-top-color: #e5e5e5;
+    border-right-color: #e5e5e5;
+    border-bottom-color: #e5e5e5;
+    border-left-color: #e5e5e5;
+    border-radius: 19px;
+    padding: 0 9px;
+    min-height: 40px !important;
+}
+.select2-container .select2-selection--multiple .select2-selection__rendered {
+    margin-top: 4px;
+}
+.select2-container .select2-selection--multiple .select2-selection__rendered .select2-selection__choice {
+    background: #d13202;
+    border-radius: 11px;
+    border: none;
+    padding: 3px 9px 1px 6px;
+    color: #ffffff;
+    font-size: 14px;
+}
+.select2-container .select2-selection--multiple .select2-selection__rendered .select2-selection__choice .select2-selection__choice__remove {
+    color: #ffffff;
+    font-weight: normal;
+    margin-right: 3px;
+}
+
+#pass-strength-result{
+    position: absolute;
+    top: 6px;
+    right: 6px;
+    width: auto !important;
+    border-radius: 30px;
+    padding: 1px 10px !important;
+    font-size: 12px;
+    width: auto !important;
+}
+
+.pw-weak{
+    margin-top: 15px;
+}
+
+#pw-weak{
+    width: 20px;
+    border-radius: 0;
+    height: 20px;
+    line-height: 20px;
+    min-height: 20px;
+    display: inline-block;
+}
+
+#registerform p.submit{
+    text-align: center !important;
+}
+
+#registerform,
+#loginform{
+    position: relative;
+    padding-top: 160px;
+}
+
+#registerform .fbl-button,
+#loginform .fbl-button{
+    position: absolute;
+    left: 0;
+    top: 20px;
+    width: 100%;
+    min-height: 141px;
+}
+
+#registerform .fbl-button h6,
+#loginform .fbl-button h6{
+    font-size: 16px;
+    padding-bottom: 10px;
+}
+
+#registerform .fbl-button h6:last-child,
+#loginform .fbl-button h6:last-child{
+    margin: 15px 20px 0;
+    padding: 15px 15px;
+    border-top: 1px solid rgba(0,0,0,.2);
+}
+
+#registerform .g-recaptcha > div,
+#loginform .g-recaptcha > div{
+    margin: 0 auto !important;
+}
+
+#lostpasswordform div.g-recaptcha, #loginform div.g-recaptcha, #registerform div.g-recaptcha {
+    margin: 12px auto 24px auto;
+}
+

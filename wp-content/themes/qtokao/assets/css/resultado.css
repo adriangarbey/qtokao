@@ -1,0 +1,48 @@
+#generic_page_title {
+  width: 100%;
+  position: relative;
+  background: linear-gradient();
+}
+#generic_page_title .curve-svg {
+  width: 100%;
+  z-index: 3;
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.08) 0, rgba(0, 0, 0, 0.02) 100%);
+}
+#generic_page_title .curve-svg svg {
+  transform: rotate(180deg);
+  width: 100%;
+  height: auto;
+}
+#generic_page_title h1 {
+  font-weight: 300;
+  padding: 100px 0 0 0;
+}
+#generic_page_content {
+  position: relative;
+}
+#generic_page_content .curve-svg {
+  width: 100%;
+  z-index: 3;
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.02) 0, rgba(0, 0, 0, 0.08) 100%);
+}
+#generic_page_content .curve-svg svg {
+  width: 100%;
+  height: auto;
+}
+#generic_page_content .post-content {
+  background: rgba(0, 0, 0, 0.02);
+  padding: 70px 0;
+}
+#generic_page_content .post-content .export_resultados_link a {
+  color: #ffffff;
+  background: #d13202;
+  font-size: 16px;
+  font-weight: 300;
+  padding: 5px 15px 5px 12px;
+  border-radius: 5px;
+}
+#generic_page_content .post-content .export_resultados_link a svg {
+  color: #ffffff;
+  margin-right: 2px;
+  fill: #ffffff;
+}

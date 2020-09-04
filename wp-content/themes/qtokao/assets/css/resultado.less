@@ -1,0 +1,57 @@
+@white: #ffffff;
+@orange: #d13202;
+@black: #000000;
+@black-light: #404040;
+@gray: #F2F2F2;
+
+#generic_page_title{
+  width: 100%;
+  position: relative;
+  background: linear-gradient();
+  .curve-svg{
+    width: 100%;
+    z-index: 3;
+    background-image: linear-gradient(180deg, rgba(0,0,0,.08) 0, rgba(0,0,0,.02) 100%);
+    svg{
+      transform: rotate(180deg);
+      width: 100%;
+      height: auto;
+    }
+  }
+  h1{
+    font-weight: 300;
+    padding: 100px 0 0 0;
+  }
+}
+
+#generic_page_content{
+  position: relative;
+  .curve-svg{
+    width: 100%;
+    z-index: 3;
+    background-image: linear-gradient(180deg, rgba(0,0,0,.02) 0, rgba(0,0,0,.08) 100%);
+    svg{
+      width: 100%;
+      height: auto;
+    }
+  }
+  .post-content{
+    background: rgba(0,0,0,.02);
+    padding: 70px 0;
+    .export_resultados_link{
+      a{
+        color: @white;
+        background: @orange;
+        font-size: 16px;
+        font-weight: 300;
+        padding: 5px 15px 5px 12px;
+        border-radius: 5px;
+        svg{
+          color: @white;
+          margin-right: 2px;
+          fill: @white;
+        }
+      }
+    }
+  }
+}
